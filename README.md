@@ -1,17 +1,8 @@
 # nosql-challenge
 Module 12 Challenge
 
-# FILES TO BE LOOKED AT: NoSQL_setup_starter.ipynb (FOR THE SETUP) AND NoSQL_analysis_starter.ipynb (FOR THE EXPLORATION ANALYSIS)
-
-# Before You Begin
-Create a new repository for this project called nosql-challenge. Do not add this homework to an existing repository.
-Clone the new repository to your computer.
-Add your Jupyter notebook starter files and your Resources folder containing establishments.json to this folder.
-Push the changes to GitHub.
-
-# Files
-Download the following files to help you get started:
-Module 12 Challenge filesLinks to an external site.
+# FILES Submitted: 
+NoSQL_setup_starter.ipynb for setup and NoSQL_analysis_starter.ipynb for exploration analysis 
 
 # Instructions
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
@@ -76,7 +67,7 @@ Some of the number values are stored as strings, when they should be stored as n
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
 ## Use NoSQL_analysis_starter.ipynb for this section of the challenge.
-## Some notes to be aware of while you are exploring the dataset:
+Some notes to be aware of while you are exploring the dataset:
   RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating. Note: This field also  includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating.
   The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
